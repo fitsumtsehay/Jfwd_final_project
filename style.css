@@ -1,0 +1,86 @@
+* 
+@media(max-width: 600px){
+	#sectionOneText h1{
+		font-size: 19px;		
+		letter-spacing: 1.5px;
+		line-height: 1.1;
+		word-spacing: 4px;
+    
+	}
+	#sectionOneText p{
+		font-size: 13px;
+		letter-spacing: .2px;
+		word-spacing: 2px;
+		margin: 0 6%;
+	}
+}
+{
+  border-box:box-sizing;
+}
+
+body {
+  margin:0;
+  font-family:Arial;
+}
+
+.navbar {
+  background-color:#ede68e;
+  display:flex;
+}
+
+ .navbar a {
+  color:white;
+  text-decoration:none; 
+  text-align:center;
+  padding:20px;   
+}
+
+
+
+.navbar .search-container {
+ flex:50%; 
+
+}
+
+.navbar .search-container input[type=text] , button {
+ padding:5px;
+}
+
+
+.navbar .search-container form {
+   padding:20px;
+   text-align:right;
+
+}
+
+ a.active {
+  background-color:#2196F3;
+  color:white;
+}
+
+@media screen and (max-width:600px){
+  .navbar {
+    flex-direction:column;
+    align-items: center;
+  }
+
+}
+
+h5 {
+	font-size: 20px;
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	font-weight: 300;
+	line-height: 175%;
+	text-align: justify;
+	padding: 10px 25px 10px 25px;
+}
+
+
+/* Introduction Section */
+
+.introduction-section {
+  max-width: 98em; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 2em; 
+}
